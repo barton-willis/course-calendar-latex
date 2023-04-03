@@ -3,3 +3,5 @@
  automatically included as well as the date for exams (that needn't be on any particular day of the week, but it must be a class day.)
 
  For UNK classes, the day of the final exam is also automatically generated.
+
+ I give an example for a College Algebra class.
