@@ -67,10 +67,8 @@
 \newcommand{\eweek}[3]{ &  & #1 & #2 & #3 \AdvanceDate[3] \\ \hline}
 
 % Print the heading for the course calendar heading
-
-
 \newcommand{\tablehead}[5]
-{\textbf{\cellcolor{\darkerColor}{#1}}  & 
+{\textbf{\cellcolor{\darkerColor}{#1}} & 
  \textbf{\cellcolor{\darkerColor}{#2}} & 
  \textbf{\cellcolor{\darkerColor}{#3}} & 
  \textbf{\cellcolor{\darkerColor}{#4}} & 
@@ -131,10 +129,10 @@
 \begin{document}
  % Set to first day of the term--correct for fall 2023
 \SetDate[21/08/2023] 
- \calendarHead{Fall}{2023}
+\calendarHead{Fall}{2023}
 
- \begin{center}
- \begin{tabular}  {|l|l|l|l|l|}
+\begin{center}
+\begin{tabular}  {|l|l|l|l|l|}
 \hline
 \tablehead{Week}{Week of}{Sections}{Topics}{Assessments}
 % Week one
@@ -145,11 +143,11 @@
 \nweek{1.4}{Function Notation}{}
 \mweek{1.5}{Function Arithmetic}{}
 \eweek{1.6}{Graphs of Functions}{\hw}
-  %Week 3
- \nweek{}{ \holiday{Labor Day}}{} 
+% Week 3
+\nweek{}{ \holiday{Labor Day}}{} 
 \mweek{1.7}{Transformations}{}
- \eweek{2.1}{Linear Functions}{\hw}
- % Week 4
+\eweek{2.1}{Linear Functions}{\hw}
+% Week 4
 \nweek{2.2}{Absolute Value Functions}{}
 \mweek{1.1---2.2}{\review}{}
 \eweek{}{\examday}{\ex}
@@ -189,15 +187,15 @@
 \nweek{6.5}{Applications of Exponential and Logarithmic Functions}{}
 \mweek{8.1}{Systems of Linear Equations: Gaussian Elimination}{}
 \eweek{8.1}{Systems of Linear Equations: Gaussian Elimination}{\hw}
-  % Week 14
-  \nweek{8.2}{Systems of Linear Equations: Augmented Matrices}{\hw}
-  \mweek{}{\holiday{Thanksgiving}}{}
-  \eweek{}{\holiday{Thanksgiving}}{}
-  % Week 15
+% Week 14
+\nweek{8.2}{Systems of Linear Equations: Augmented Matrices}{\hw}
+\mweek{}{\holiday{Thanksgiving}}{}
+\eweek{}{\holiday{Thanksgiving}}{}
+% Week 15
 \nweek{9.1}{Sequences}{}
 \mweek{6.5---9.1}{\review}{}
- \eweek{}{\examday}{\ex}
- % Week 16
+\eweek{}{\examday}{\ex}
+% Week 16
 \nweek{9.2}{Summation Notation}{}
 \mweek{9.2}{Summation Notation}{}
 \eweek{1.1---9.2}{\finalreview}{}
