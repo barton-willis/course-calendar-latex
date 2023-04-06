@@ -67,11 +67,11 @@
 \newcommand{\eweek}[3]{ &  & #1 & #2 & #3 \AdvanceDate[3] \\ \hline}
 
 % Print the heading for the course calendar heading
-\newcommand{\tablehead}[5]
-{\textbf{\cellcolor{\darkerColor}{#1}} & 
- \textbf{\cellcolor{\darkerColor}{#2}} & 
- \textbf{\cellcolor{\darkerColor}{#3}} & 
- \textbf{\cellcolor{\darkerColor}{#4}} & 
+\newcommand{\tablehead}[5]  
+{\textbf{\cellcolor{\darkerColor}{#1}} &
+ \textbf{\cellcolor{\darkerColor}{#2}} &
+ \textbf{\cellcolor{\darkerColor}{#3}} &
+ \textbf{\cellcolor{\darkerColor}{#4}} &
  \textbf{\cellcolor{\darkerColor}{#5}} \\ \hline \hline}
   
 % Set this to a message for a review day
@@ -108,12 +108,12 @@
     \ifthenelse{\equal{#1}{800}}{Monday 8:00 \AM---10:00 \AM}{}
     \ifthenelse{\equal{#1}{900}}{Wednesday 8:00 \AM---10:00 \AM}{}
     \ifthenelse{\equal{#1}{1000}}{Monday 10:30 \AM---12:30 \PM}{}
-    \ifthenelse{\equal{#1}{1100}}{Wednesday 10:30 \AM---12:30 \PM}{}
-    \ifthenelse{\equal{#1}{1200}}{Monday 1:00 \PM---3:00 \PM}{}
-    \ifthenelse{\equal{#1}{100}}{Wednesday  1:00 \PM---3:00 \PM}{}
+    \ifthenelse{\equal{#1}{1100}}{Wednesday 10:30 \AM---12:30\PM}{}
+    \ifthenelse{\equal{#1}{1200}}{Monday 1:00 \PM---3:00\PM}{}
+    \ifthenelse{\equal{#1}{100}}{Wednesday  1:00 \PM---3:00\PM}{}
     \ifthenelse{\equal{#1}{200}}{Monday 3:30 \PM---5:30 \PM}{}
     \ifthenelse{\equal{#1}{300}}{Wednesday 3:30 \PM---5:30 \PM}{}
-    \ifthenelse{\equal{#1}{400}}{Tuesday 3:30 \PM---5:30 \PM}{}
+    \ifthenelse{\equal{#1}{400}}{Tuesday 3:30 \PM---5:30\PM}{}
   }
 
   \newcommand{\finalTTh}[1]
